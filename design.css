@@ -56,3 +56,9 @@ h1, h2, h3, h4, h5, p{
     padding-left: 2em;
    max-width:350px;
 }
+
+iframe {
+    Width: 100px;
+    heigth:100px;
+}
+        
