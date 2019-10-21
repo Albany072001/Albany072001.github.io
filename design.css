@@ -54,11 +54,11 @@ h1, h2, h3, h4, h5, p{
     position: relative;
     top:-100px;
     padding-left: 2em;
-   max-width:350px;
+   max-width:320px;
 }
 
 iframe {
-    Width: 100px;
-    heigth:100px;
+    Width: 50px;
+    heigth:50px;
 }
         
