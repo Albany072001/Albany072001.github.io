@@ -1,7 +1,7 @@
 
 body {
-    background-color: linear-gradient(0deg, rgb(246, 19, 218),rgb(2, 28, 51));
+    background: linear-gradient(0deg, rgb(246, 19, 218),rgb(2, 28, 51));
     margin: 0px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
