@@ -1,64 +1,17 @@
-body, html {
-    /* Background full screen */
-    position: relative;
-    min-height: 100%;
+body {
+    background-color: rgba(203, 117, 224, 0.459);
+   
 }
-
-body{
-    /* Gradient background */
-    background: linear-gradient(0deg, rgb(246, 19, 218),rgb(2, 28, 51));
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+h1 {
+    text-align: center;
+    text-decoration-color: rgba(211, 107, 193, 0.883);
+    font-family: sans-serif;
 }
-
-h1, h2, h3, h4, h5, p{
-    /* Remove default margin in text */
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-bottom: 1em;
+h3 {
+    text-align: center;
+    text-decoration-color: rgba(211, 107, 193, 0.883);
+    font-family: sans-serif;
 }
-
-/* Media screen 600px / Mobile */
-@media screen and (max-width: 600px) {
-    
+div {
+    text-align: center;
 }
-.main-module{
-    /* Module design */
-    background-color: #ededed;
-    padding: 2em;
-}
-/* Media screen 1200px / Desktop */
-@media screen and (min-width: 600px) {
-    .main-module{
-        /* Box design */
-        border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
-        -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
-        box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
-        margin: 5em 20% 5em 20%;
-    }
-    .block{
-        /* Block */
-        display: inline-block;
-        zoom: 1;
-    }
-    .left{
-        float: left;
-        left: 0;
-    }
-    .right{
-        float: right;
-    }
-}
-.text-div{
-    position: relative;
-    top:-100px;
-    padding-left: 2em;
-   max-width:350px;
-}
-
-iframe {
-    Width: 150px;
-    heigth:150px;
-}
-        
