@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(203, 117, 224, 0.459);
+}
+.letras{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgba(55, 105, 221, 0.849);  
+}
+.letras2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    color:  rgba(55, 105, 221, 0.849);  
+    margin: 30px 140px 30px 140px;
+}
+
+button {
+    background-color:rgba(55, 105, 221, 0.849); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+
+ 
+
+
