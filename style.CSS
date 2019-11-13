@@ -26,6 +26,16 @@ button {
     cursor: pointer;
  }
 
+#example{
+    filter: opacity(.3);
+}
+
+#example2{
+    filter: blur(.8px);
+}
+
+#example3{
+    filter: s
  
 
 
