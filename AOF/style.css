@@ -1,1 +1,77 @@
+@keyframes example {
+    0% {
+      background:blanchedalmond;
+    }
+    50% {
+      background: rgba(101, 143, 38, 0.924) ;
+    }
+    100% {
+      background:blanchedalmond;
+    }
+  }
+  @keyframes example4 {
+    0% {
+      background:blanchedalmond;
+    }
+    50% {
+      background: rgba(101, 143, 38, 0.924) ;
+    }
+    100% {
+      background:blanchedalmond;
+    }
+  }
+  @keyframes example2 {
+      from{
+          color: rgba(101, 143, 38, 0.924);
+      }
+      to{
+          color: black;
+      }
+  }
+  @keyframes example3{
+    from{
+        color: rgba(101, 143, 38, 0.924);
+    }
+    to{
+        color: black;
+    }
+  }
+  @keyframes example5{
+    from{
+      color: rgba(101, 143, 38, 0.924);
+  }
+  to{
+      color: black;
+  }
+}
+  button{
+    background-color: white;
+    color:rgba(101, 143, 38, 0.924) ;
+    border: 2px solid rgb(22, 65, 24);
+    padding: 14px 40px;
+    font-size: 16px;
+  }
 
+  div{
+      color:rgba(101, 143, 38, 0.924)
+  }
+
+  #scrolling{
+  font-size: 3em;
+  color: limegreen;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;	
+  transform:translateX(100%);
+  animation: scrolling 15s linear infinite;
+  }
+
+  @keyframes scrolling {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  
