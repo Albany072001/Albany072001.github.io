@@ -88,6 +88,10 @@
     border: 2px solid rgb(22, 65, 24);
     padding: 14px 40px;
     font-size: 16px;
+    text-align: center;
+    text decoration: none;
+    display: inline-block;
+    cursor: pointer;
   }
 
   div{
