@@ -14,3 +14,17 @@ while(beginning>limit)
 document.write("Math.random: <br>")
 var ans= Math.floor(Math.random()*20)
 document.write("Random of " + ans+ "<br>");
+
+
+
+
+function myLoop(){
+
+var start = document.getElementById("start").value;
+var end = document.getElementById("end").value;
+
+for(var i = start; i <= end; i++)
+  {
+  document.write('<p>' + i);
+  }
+}
